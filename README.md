@@ -1,8 +1,5 @@
 # QA Bootcamp Week 2 Starter
 
-The project consist of the following folder:
-
-## scr
-Under this folder is another folder *ts_basics* that holds all lesson practicals for working with Typescript.
-
-Day 6 exercise profile validator is in the *profile_validator.ts* and contains all the code written in Typescript on the exercise
+## Steps to run tests
+- Open terminal and run **npm install** to install all dependencies, the **npm playwright install chronium**, create a **.env** file in the root of the directory and copy the contents of **.env.example** into it.
+- Run **npx test** to run all the tests in the test suit.
